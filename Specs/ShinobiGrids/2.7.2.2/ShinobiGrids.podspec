@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ShinobiGrids"
-  s.version      = "2.5.3"
+  s.version      = "2.7.2.2"
   s.summary      = "ShinobiGrids"
   s.license      = 'Private'
   s.homepage     = "http://www.shinobicontrols.com"
