@@ -26,6 +26,9 @@
   "libraries": [
     "ScanApi"
   ],
+  "vendored_libraries" : [
+    "ScanAPI/lib/libScanApi.a"
+  ],
   "compiler_flags": [
     "-lstdc++",
     "-ObjC"
