@@ -1,0 +1,41 @@
+{
+  "name": "SocketScanAPI",
+  "version": "10.1.12881.38",
+  "summary": "Socket Mobile BarCode Scanner iOS SDK",
+  "description": "iOS library for interfacing with Socket Mobile barcode accessories such as the Socket 7xi",
+  "homepage": "http://www.socketmobile.com/",
+  "license": {
+    "type": "Commercial",
+    "text": "© 2008-2015, Socket Mobile, Inc. All rights reserved. http://www.socketmobile.com/\n"
+  },
+  "authors": {
+    "Socket Mobile, Inc.": "developers@socketmobile.com"
+  },
+  "platforms": {
+    "ios": "6.0"
+  },
+  "source": {
+    "git": "git@github.com:FulcrumTechnologies/socketscan-sdk-ios.git",
+    "tag": "v10.1.12881.38"
+  },
+  "requires_arc": true,
+  "source_files": [
+    "ScanAPI/*.{h,m,mm}",
+    "ScanAPI/include/*.h"
+  ],
+  "libraries": [
+    "ScanApi"
+  ],
+  "compiler_flags": [
+    "-lstdc++",
+    "-ObjC"
+  ],
+  "frameworks": [
+    "UIKit",
+    "CoreGraphics",
+    "ExternalAccessory"
+  ],
+  "xcconfig": {
+    "LIBRARY_SEARCH_PATHS": "$(PODS_ROOT)/ScanAPI/lib"
+  }
+}
