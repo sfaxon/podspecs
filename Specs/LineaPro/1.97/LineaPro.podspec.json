@@ -1,0 +1,29 @@
+{
+  "name": "LineaPro",
+  "version": "1.97",
+  "summary": "LineaPro SDK",
+  "description": "iOS SDK for talking to a LineaPro scanner.",
+  "homepage": "http://ipcprint.com/ios-peripherals/linea-pro-5.html",
+  "license": "Commercial",
+  "authors": {
+    "Infinite Peripherals": "info@ipcprint.com"
+  },
+  "platforms": {
+    "ios": "6.0"
+  },
+  "source": {
+    "git": "git@github.com:FulcrumTechnologies/linea-pro-dk.git",
+    "tag": "v1.97"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source_files": [
+    "Library/*.h"
+  ],
+  "frameworks": [
+    "ExternalAccessory"
+  ],
+  "vendored_libraries": "Library/libdtdev.a",
+  "requires_arc": true
+}
