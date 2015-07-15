@@ -105,7 +105,11 @@ Pod::Spec.new do |s|
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
 
-  # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
+  s.preserve_paths = "BtHelper.h", "ISktScanDecodedData.h", "ISktScanObject.h",
+    "ScanAPI.h", "SktScanDeviceType.h", "BtHelperWm.h", "ISktScanDevice.h", "ISktScanProperty.h",
+    "SktClassFactory.h", "SktScanErrors.h", "GenBarcode.h", "ISktScanEvent.h",
+    "ISktScanSymbology.h", "SktScanAPI.h", "SktScanPropIds.h",
+    "ISktScanApi.h", "ISktScanMsg.h", "ISktScanVersion.h", "SktScanCore.h", "SktScanTypes.h"
 
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
