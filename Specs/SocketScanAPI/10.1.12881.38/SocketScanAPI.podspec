@@ -53,10 +53,9 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "Seth Faxon" => "seth.faxon@gmail.com" }
-  # Or just: s.author    = "Seth Faxon"
-  # s.authors            = { "Seth Faxon" => "seth.faxon@gmail.com" }
-  # s.social_media_url   = "http://twitter.com/Seth Faxon"
+
+  # Or just:
+  s.author    = "Socket Mobile, Inc."
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
