@@ -91,7 +91,8 @@ Pod::Spec.new do |s|
   s.source_files  = "ScanAPI", "ScanAPI/**/*.{h,m,mm}"
   # s.exclude_files = "Classes/Exclude"
 
-  # s.public_header_files = "ScanAPI/**/*.h"
+  s.private_header_files = "ScanAPI/include/*.h"
+  s.public_header_files = "ScanAPI/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
