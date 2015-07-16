@@ -91,8 +91,8 @@ Pod::Spec.new do |s|
   s.source_files  = "ScanAPI", "ScanAPI/**/*.{h,m,mm}"
   # s.exclude_files = "Classes/Exclude"
 
-  s.private_header_files = "ScanAPI/include/*.h"
-  s.public_header_files = "ScanAPI/*.h"
+  # s.private_header_files = "ScanAPI/include/*.h"
+  # s.public_header_files = "ScanAPI/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -137,6 +137,9 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
+  s.xcconfig = {
+    "HEADER_SEARCH_PATHS" => "$(PODS_ROOT)/SocketScanAPI/ScanAPI"
+  }
 
   # s.dependency "JSONKit", "~> 1.4"
 
