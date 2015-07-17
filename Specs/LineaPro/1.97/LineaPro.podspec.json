@@ -18,13 +18,15 @@
   "source_files": [
     "Library/DTDevices.h"
   ],
-  "libraries": "LineaProSDK",
   "requires_arc": true,
   "preserve_paths": "Library/libdtdev.a",
-  "frameworks": [
-    "ExternalAccessory", "CoreBluetooth"
-  ],
+  "libraries": "dtdev",
   "ios": {
     "vendored_libraries": "Library/libdtdev.a"
-  }
+  },
+  "frameworks": [
+    "ExternalAccessory",
+    "CoreBluetooth"
+  ],
+  "compiler_flags": "-ObjC"
 }
