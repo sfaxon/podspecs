@@ -26,9 +26,6 @@
     "dtdev",
   ],
   "requires_arc": true,
-  // "ios": {
-  //   "vendored_libraries": "Library/libdtdev.a"
-  // },
   "xcconfig": {
     "LIBRARY_SEARCH_PATHS": "$(PODS_ROOT)/LineaPro/Library"
   }

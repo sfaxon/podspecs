@@ -64,7 +64,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  s.platform     = :ios, "8.0"
+  s.platform     = :ios, "7.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -106,11 +106,11 @@ Pod::Spec.new do |s|
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
 
-  s.preserve_paths = "BtHelper.h", "ISktScanDecodedData.h", "ISktScanObject.h",
-    "ScanAPI.h", "SktScanDeviceType.h", "BtHelperWm.h", "ISktScanDevice.h", "ISktScanProperty.h",
-    "SktClassFactory.h", "SktScanErrors.h", "GenBarcode.h", "ISktScanEvent.h",
-    "ISktScanSymbology.h", "SktScanAPI.h", "SktScanPropIds.h",
-    "ISktScanApi.h", "ISktScanMsg.h", "ISktScanVersion.h", "SktScanCore.h", "SktScanTypes.h"
+  # s.preserve_paths = "BtHelper.h", "ISktScanDecodedData.h", "ISktScanObject.h",
+  #   "ScanAPI.h", "SktScanDeviceType.h", "BtHelperWm.h", "ISktScanDevice.h", "ISktScanProperty.h",
+  #   "SktClassFactory.h", "SktScanErrors.h", "GenBarcode.h", "ISktScanEvent.h",
+  #   "ISktScanSymbology.h", "SktScanAPI.h", "SktScanPropIds.h",
+  #   "ISktScanApi.h", "ISktScanMsg.h", "ISktScanVersion.h", "SktScanCore.h", "SktScanTypes.h"
 
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
