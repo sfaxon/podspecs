@@ -18,6 +18,7 @@
   "source_files": [
     "Library/DTDevices.h"
   ],
+  "public_header_files": "Library/DTDevices.h",
   "requires_arc": true,
   "preserve_paths": "Library/libdtdev.a",
   "libraries": "dtdev",
