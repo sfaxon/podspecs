@@ -19,8 +19,10 @@
   "public_header_files": "Library/DTDevices.h",
   "preserve_paths": "Library/*.a",
   "frameworks": [
-    "ExternalAccessory",
-    "CoreBluetooth"
+    "AVFoundation",
+    "CoreBluetooth",
+    "MediaPlayer",
+    "AudioToolbox"
   ],
   "libraries": [
     "dtdev"
