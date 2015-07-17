@@ -21,6 +21,7 @@
   "source_files": [
     "Library/DTDevices.h"
   ],
+  "library": "LineaProSDK",
   "frameworks": [
     "ExternalAccessory", "CoreBluetooth"
   ],
