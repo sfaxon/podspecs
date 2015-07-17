@@ -15,19 +15,18 @@
     "git": "git@github.com:FulcrumTechnologies/linea-pro-dk.git",
     "tag": "v1.97"
   },
-  "source_files": [
-    "Library/DTDevices.h"
-  ],
+  "source_files": "Library/DTDevices.h",
   "public_header_files": "Library/DTDevices.h",
-  "requires_arc": true,
-  "preserve_paths": "Library/libdtdev.a",
-  "libraries": "dtdev",
-  "ios": {
-    "vendored_libraries": "Library/libdtdev.a"
-  },
+  "preserve_paths": "Library/*.a",
   "frameworks": [
     "ExternalAccessory",
     "CoreBluetooth"
   ],
-  "compiler_flags": "-ObjC"
+  // "libraries": [
+  //   "z",
+  // ],
+  "requires_arc": true,
+  "xcconfig": {
+    "LIBRARY_SEARCH_PATHS": "$(PODS_ROOT)/LineaPro/Library"
+  }
 }
