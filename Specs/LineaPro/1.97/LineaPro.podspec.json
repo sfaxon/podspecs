@@ -22,7 +22,8 @@
     "AVFoundation",
     "CoreBluetooth",
     "MediaPlayer",
-    "AudioToolbox"
+    "AudioToolbox",
+    "ExternalAccessory"
   ],
   "libraries": [
     "dtdev"
