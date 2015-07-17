@@ -9,23 +9,22 @@
     "Infinite Peripherals": "info@ipcprint.com"
   },
   "platforms": {
-    "ios": "6.0"
+    "ios": "7.0"
   },
   "source": {
     "git": "git@github.com:FulcrumTechnologies/linea-pro-dk.git",
     "tag": "v1.97"
   },
-  "platforms": {
-    "ios": "7.0"
-  },
   "source_files": [
     "Library/DTDevices.h"
   ],
-  "library": "LineaProSDK",
+  "libraries": "LineaProSDK",
+  "requires_arc": true,
   "preserve_paths": "Library/libdtdev.a",
   "frameworks": [
     "ExternalAccessory", "CoreBluetooth"
   ],
-  "vendored_libraries": "Library/libdtdev.a",
-  "requires_arc": true
+  "ios": {
+    "vendored_libraries": "Library/libdtdev.a"
+  }
 }
