@@ -23,7 +23,7 @@
     "CoreBluetooth"
   ],
   "libraries": [
-    "dtdev",
+    "dtdev"
   ],
   "requires_arc": true,
   "xcconfig": {
