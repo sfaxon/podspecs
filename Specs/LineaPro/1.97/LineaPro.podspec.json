@@ -22,7 +22,7 @@
     "Library/DTDevices.h"
   ],
   "frameworks": [
-    "ExternalAccessory"
+    "ExternalAccessory", "CoreBluetooth"
   ],
   "vendored_libraries": "Library/libdtdev.a",
   "requires_arc": true
