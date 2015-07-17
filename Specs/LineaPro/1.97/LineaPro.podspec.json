@@ -19,7 +19,7 @@
     "ios": "7.0"
   },
   "source_files": [
-    "Library/*.h"
+    "Library/DTDevices.h"
   ],
   "frameworks": [
     "ExternalAccessory"
