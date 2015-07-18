@@ -32,7 +32,7 @@
     "LineaProFirmware": [
       "Firmware/*"
     ]
-  }
+  },
   "requires_arc": true,
   "xcconfig": {
     "LIBRARY_SEARCH_PATHS": "$(PODS_ROOT)/LineaPro/Library"
